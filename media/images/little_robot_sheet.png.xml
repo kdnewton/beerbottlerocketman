@@ -1,0 +1,7 @@
+<sheet>
+	<sprite name="little_robot_00.png" x="0" y="0" width="43" height="64" />
+	<sprite name="little_robot_01.png" x="43" y="0" width="43" height="64" />
+	<sprite name="little_robot_02.png" x="86" y="0" width="43" height="64" />
+	<sprite name="little_robot_03.png" x="129" y="0" width="43" height="64" />
+	<sprite name="little_robot_04.png" x="172" y="0" width="43" height="64" />
+</sheet>

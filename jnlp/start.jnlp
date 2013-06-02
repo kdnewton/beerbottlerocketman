@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://g2dp.n3wt0n.com/webstart/bbrm/"
+  href="start.jnlp">
+  <information>
+    <title>Beer Bottle Rocket Man</title>
+    <vendor>n3wt0n!</vendor>
+    <homepage href="http://g2dp.n3wt0n.com"/>
+    <description>Fetch the doctor a beer.</description>
+    <description kind="short">Fetch the doctor a beer.</description>
+    <icon href="http://g2dp.n3wt0n.com/sites/default/files/logo.png" kind="default" />
+    <shortcut online="false">
+      <desktop/>
+    </shortcut>
+  </information>
+  <security>
+    <all-permissions/>
+  </security>
+  <update check="timeout" policy="always"/>
+  <resources>
+	<j2se max-heap-size="134217728" href="http://java.sun.com/products/autodl/j2se" max-heap-size="128M" version="1.6+"/>       
+	<jar href="bbrm.jar" download="eager" main="true" />       
+	<jar href="g2dp.jar" download="eager" main="true" />
+	<jar href="jogg-0.0.7.jar" download="eager" main="false" />
+	<jar href="jorbis-0.0.15.jar" download="eager" main="false" />
+	<jar href="lwjgl.jar" download="eager" main="false" />
+	<jar href="phys2d.jar" download="eager" main="false" />
+	<jar href="slick.jar" download="eager" main="false" />
+  </resources>
+  <resources os="Linux" >
+    <j2se version="1.5+"/>
+    <nativelib href="linux-native.jar"/>
+  </resources>
+  <resources os="Windows" >
+  	<j2se version="1.5+"/>
+    <nativelib href="windows-native.jar"/>
+  </resources>
+  <resources os="Mac OS">
+  	<j2se version="1.5+"/>
+    <nativelib href="macos-native.jar"/>
+  </resources>
+  <application-desc main-class="com.n3wt0n.bbrm.game.TheGame" />
+</jnlp>

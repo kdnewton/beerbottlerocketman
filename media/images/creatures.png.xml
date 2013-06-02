@@ -1,0 +1,18 @@
+<sheet>
+	<sprite name="Mummy.png" x="0" y="0" width="100" height="128" />
+	<sprite name="LargeCrate01.png" x="100" y="0" width="96" height="96" />
+	<sprite name="LargeCrate02.png" x="196" y="0" width="96" height="96" />
+	<sprite name="LargeCrate03.png" x="292" y="0" width="96" height="96" />
+	<sprite name="zombie01_01.png" x="388" y="0" width="43" height="80" />
+	<sprite name="MediumCrate01.png" x="431" y="0" width="64" height="64" />
+	<sprite name="MediumCrate02.png" x="0" y="128" width="64" height="64" />
+	<sprite name="MediumCrate03.png" x="64" y="128" width="64" height="64" />
+	<sprite name="zombie01_02.png" x="128" y="128" width="39" height="64" />
+	<sprite name="zombie01_03.png" x="167" y="128" width="39" height="64" />
+	<sprite name="Beer.png" x="206" y="128" width="14" height="40" />
+	<sprite name="Compressor.png" x="220" y="128" width="32" height="32" />
+	<sprite name="Nozzle.png" x="252" y="128" width="32" height="32" />
+	<sprite name="SmallCrate01.png" x="284" y="128" width="32" height="32" />
+	<sprite name="SmallCrate02.png" x="316" y="128" width="32" height="32" />
+	<sprite name="SmallCrate03.png" x="348" y="128" width="32" height="32" />
+</sheet>

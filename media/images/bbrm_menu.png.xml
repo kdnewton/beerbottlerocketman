@@ -1,0 +1,6 @@
+<sheet>
+	<sprite name="play.png" x="0" y="0" width="201" height="121" />
+	<sprite name="quit.png" x="0" y="121" width="201" height="121" />
+	<sprite name="info.png" x="0" y="242" width="201" height="121" />
+	<sprite name="pointer_bottle.png" x="201" y="242" width="40" height="46" />
+</sheet>

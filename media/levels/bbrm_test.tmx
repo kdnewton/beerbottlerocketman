@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="100" tilewidth="32" tileheight="32">
+ <tileset name="Stone" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="stone.png"/>
+ </tileset>
+ <tileset name="dark stone" firstgid="31" tilewidth="32" tileheight="32">
+  <image source="stone_dark.png"/>
+ </tileset>
+ <tileset name="darker stone" firstgid="61" tilewidth="32" tileheight="32">
+  <image source="stone_darker.png"/>
+ </tileset>
+ <tileset name="small dark tile" firstgid="91" tilewidth="32" tileheight="32">
+  <image source="small_dark_tile.png"/>
+ </tileset>
+ <tileset name="stone textured" firstgid="95" tilewidth="32" tileheight="32">
+  <image source="stone_textured.png"/>
+ </tileset>
+ <layer name="BACKGROUND" width="25" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2UwQ2DMAxFGYATJ5agS7Q9tKgTwArZ/0oqESmySI2wHUj6I32lDpJf/zekabCOrEFRYIABxnUZN0al+Pg3Bjczy/+f8lMLQ+ubONsHGGCAAYYGw2Xy4RI7/S3x4RiOlDGt/cLuolqq2Me0cifF/jGDng+GjG/vWbF/yodmTr+yAgMMMMAAY1ttBkaXgdFXklUtDMz8WlnBR50+RnIe1x3znKuvMo/SZp7KtGWec/VZWUneoa16T1b9wd40q/GAZrKnziWMvdLwwdVSH7Svto8cWeVg3L0eO+YiYTy9PsY+Xl7vCuYBBhhnMMI9YMkI94AlI9wDpc+DMqzXAoO5SDwQJwAA
+  </data>
+ </layer>
+ <layer name="PLATFORMS" width="25" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2ZbU7DMAyGNwZ0MKDAj/EpLrT734dYqoVl2Y7TOu1WEunVqjbJszi2m6SbzXylSzoGai8w7pL6pK8AQT8vCkO6P6YcGqMxGuNsGZADpDwDZZu0S7pOuhJEn/FcchqEDItTOo4TE2VM5XAG5uJe0FjOYWhP+7byNLc1Xt8o/XfCf43yJa3/SIbWfxTD6j83txATUizwmMi9d6NiQivoYzU5nFGDgwxvTJTGCjLArzrWZjeI3psS88B4cNT11LEYr466njoWYy3jeHfU9dSxGI+Ouk8TGBAfY2Jg62wX/f7QxrF2Bt/fWc8sWQy6FuJ1+DrJeseiX4EPcL/5YLKeWbLGEbWXtnz33mkPr83mZuD6PKr/NduqBkOLD8j3Nc9nIsvSObExlmGg72qK2qtb5XYGxo9yn699tP2Btr7i6yNrf5Er526rEoZkK7xe2lYlcz63rfjv0raKZNTwK+pTlq0i5/zSbKWdTTW/+mNwW11KDNI1aC1b9eRaikHpnKDUVpxRy1YljChbPRuS9hK5NZfEoPLsJ2gfmBvpnFmMt8z/o23GjmMtDND3IO29A/vE3LlfjhGxR/xPjFxcgqT5ou0547NQnjkvye1jC8b/ms4ZpDMZ7zl3OwuPZ9D1Vel3OS+j1jjod+IaDOk7dC43eYXvHt7/L2MrW5cQJwAA
+  </data>
+ </layer>
+ <layer name="FOREGROUND" width="25" height="100" opacity="0.63">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YQQtAMACG4YXiphy4+f8/E7nstBaz0PPUV3LwnraDEAAAAOpq9rX7uug5fgcAAAAAKWPmNN7VuNvJbWnUa3xBH85/z0+aHv7+Ya3Q4LrjPM2JDYUaqS0/aZS4mzazLcQIECcAAA==
+  </data>
+ </layer>
+ <objectgroup name="ACTORS" width="0" height="0">
+  <object name="Player" x="320" y="3136" width="32" height="32"/>
+  <object name="Beer" x="608" y="3136" width="32" height="32"/>
+  <object name="Beer" x="640" y="3136" width="32" height="32"/>
+  <object name="Beer" x="64" y="3040" width="32" height="32"/>
+  <object name="Beer" x="32" y="2912" width="32" height="32"/>
+  <object name="Beer" x="64" y="2912" width="32" height="32"/>
+  <object name="Mob" x="320" y="2752" width="32" height="32"/>
+  <object name="Mob" x="512" y="2912" width="32" height="32"/>
+  <object name="Mob" x="128" y="2464" width="32" height="32"/>
+  <object name="Mob" x="64" y="2368" width="32" height="32"/>
+  <object name="Mob" x="192" y="2272" width="32" height="32"/>
+  <object name="Mob" x="160" y="2176" width="32" height="32"/>
+  <object name="Mob" x="64" y="2080" width="32" height="32"/>
+  <object name="Mob" x="96" y="1984" width="32" height="32"/>
+  <object name="Mob" x="64" y="1888" width="32" height="32"/>
+  <object name="Mob" x="192" y="1792" width="32" height="32"/>
+  <object name="Beer" x="224" y="2752" width="32" height="32"/>
+  <object name="Beer" x="544" y="2496" width="32" height="32"/>
+  <object name="Beer" x="160" y="2624" width="32" height="32"/>
+  <object name="Beer" x="192" y="2624" width="32" height="32"/>
+  <object name="Beer" x="512" y="1920" width="32" height="32"/>
+  <object name="Beer" x="480" y="1760" width="32" height="32"/>
+  <object name="Beer" x="448" y="1760" width="32" height="32"/>
+  <object name="Mob" x="544" y="1760" width="32" height="32"/>
+  <object name="Mob" x="640" y="2752" width="32" height="32"/>
+  <object name="Box" type="Small" x="608" y="2752" width="32" height="32"/>
+  <object name="Nozzle" x="128" y="1696" width="32" height="32"/>
+  <object name="Beer" x="32" y="1216" width="32" height="32"/>
+  <object name="Box" type="Large" x="224" y="1088" width="96" height="96"/>
+  <object name="Beer" x="448" y="1152" width="32" height="32"/>
+  <object name="Beer" x="480" y="1152" width="32" height="32"/>
+  <object name="Beer" x="512" y="1152" width="32" height="32"/>
+  <object name="Mob" x="352" y="1248" width="32" height="32"/>
+  <object name="Compressor" x="544" y="1152" width="32" height="32"/>
+  <object name="Mob" type="Large" x="128" y="928" width="128" height="128"/>
+  <object name="Box" type="Large" x="416" y="3072" width="96" height="96"/>
+  <object name="Box" type="Small" x="352" y="3136" width="32" height="32"/>
+ </objectgroup>
+</map>
